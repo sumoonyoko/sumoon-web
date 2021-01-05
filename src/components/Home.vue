@@ -1,19 +1,24 @@
 <template>
-  <div></div>
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+  </div>
 </template>
+
+<style>
+  .hello {
+    background: url("//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20201215/16080207907887.jpg") no-repeat;
+    background-size: cover;
+    height: 870px;
+  }
+</style>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'home',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '欢迎来到王者荣耀'
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

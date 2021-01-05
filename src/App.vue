@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/sumoonQQ.jpg">
+    <home></home>
     <router-view/>
   </div>
 </template>
 
 <script>
+// 导入组件
+import Home from './components/Home'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Home
+  }
 }
 </script>
 
@@ -18,6 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding: 419px 40%;
+  height: auto;
+  margin-top: 83px;
 }
 </style>

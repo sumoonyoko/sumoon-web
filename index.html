@@ -13,9 +13,14 @@
     <!-- 页面设计：alvinxin | 页面制作：sonichuang | 创建：2017-06-06 | 团队博客：//tgideas.qq.com/ test-->
 		<meta name="baidu-site-verification" content="6zFCAGAmfZ" />
     <meta name="applicable-device" content="pc">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/static/index.css">
 		<link rel="alternate" href="https://pvp.qq.com/m/">
     <link rel="stylesheet" href="//game.gtimg.cn/images/yxzj/web201706/css/tganime.min.css">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
   </head>
   <body>
     <div id="header" class="header tganime-header-fix">
@@ -23,12 +28,13 @@
         <h1><a href="//pvp.qq.com/" class="logo pa" title="王者荣耀" onclick="PTTSendClick('headNav','logo','logo');">王者荣耀-巅峰明月战队</a></h1>
         <!--=========主导航==========-->           
         <ul class="main-nav clearfix">
-          <li> <a href="/web201605/herolist.shtml" target="_blank" title="游戏资料" onclick="PTTSendClick('headNav','data','游戏资料');">游戏资料<em>DATA</em></a> </li>
-          <li> <a href="/raiders/" target="_blank" title="内容中心" onclick="PTTSendClick('headNav','strategy','内容中心');">内容中心<em>CONTENTS</em></a> </li>
-          <li> <a href="/match/kpl/index.shtml" target="_blank" title="赛事中心" onclick="PTTSendClick('headNav','match','赛事中心');">赛事中心<em>MATCH</em></a> </li>
-          <li> <a href="/cp/a20171023pvppc/" target="_blank" title="商城/合作" onclick="PTTSendClick('headNav','CULTURE','百态王者');">百态王者<em>CULTURE</em></a> </li>
-          <li> <a href="javascript:void(0)" title="社区互动" onclick="PTTSendClick('headNav','Community','社区互动');">社区互动<em>COMMUNITY</em></a> </li>
-          <li> <a href="javascript:void(0)" target="_blank" title="玩家支持" onclick="PTTSendClick('headNav','player','玩家支持');">玩家支持<em>PLAYER</em></a> </li>
+          <li> <a href="/" target="_self" title="王者荣耀-巅峰明月战队" onclick="PTTSendClick('headNav','data','王者荣耀-巅峰明月战队');">巅峰明月<em>TEAM</em></a> </li>
+          <li> <a href="https://pvp.qq.com/web201605/herolist.shtml" target="_blank" title="游戏资料" onclick="PTTSendClick('headNav','data','游戏资料');">游戏资料<em>DATA</em></a> </li>
+          <li> <a href="https://pvp.qq.com/web201605/herolist.shtml" target="_blank" title="内容中心" onclick="PTTSendClick('headNav','strategy','内容中心');">内容中心<em>CONTENTS</em></a> </li>
+          <li> <a href="https://pvp.qq.com/match/center.shtml?ADTAG=pvp.index.nav.matchcenter" target="_blank" title="赛事中心" onclick="PTTSendClick('headNav','match','赛事中心');">赛事中心<em>MATCH</em></a> </li>
+          <li> <a href="https://pvp.qq.com/cp/a20171023pvppc/" target="_blank" title="商城/合作" onclick="PTTSendClick('headNav','CULTURE','百态王者');">百态王者<em>CULTURE</em></a> </li>
+          <li> <a href="https://pvp.qq.com/web201605/wallpaper.shtml"  target="_blank" title="英雄壁纸" onclick="PTTSendClick('headNav','Community','社区互动');">英雄壁纸<em>HERO</em></a> </li>
+          <li> <a href="https://pvp.qq.com/cp/a20170829bbgxsm/index.html" target="_blank" title="版本介绍" onclick="PTTSendClick('headNav','player','玩家支持');">版本介绍<em>VERSION</em></a> </li>
         </ul>
       </div>
     </div>
@@ -115,9 +121,5 @@
     <script>var isdSpeedRecorderDomLoaded = new Date();</script>
     <script src="//game.gtimg.cn/images/yxzj/web201706/js/header.js"></script>
     <script src="//game.gtimg.cn/images/js/title.js"></script>
-    <!-- AMS KV Link -->
-    <div id="kvLinkSetDiv" style="display:none">
-    <div class="kv-bg" style="background-image:url(//ossweb-img.qq.com/upload/webplat/info/yxzj/20201104/490951454030546.jpg);"></div>
-    </div>
   </body>
 </html>
